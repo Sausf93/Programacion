@@ -1,0 +1,12 @@
+c:\users\saulo\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\saulo\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
+C:\Users\saulo\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\saulo\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\saulo\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\saulo\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\saulo\Documents\Visual Studio 2015\Projects\Naves\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\saulo\Documents\Visual Studio 2015\Projects\Naves\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\saulo\Documents\Visual Studio 2015\Projects\Naves\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\saulo\Documents\Visual Studio 2015\Projects\Naves\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\saulo\Documents\Visual Studio 2015\Projects\Naves\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\saulo\Documents\Visual Studio 2015\Projects\Naves\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
