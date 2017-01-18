@@ -1,0 +1,9 @@
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.exe.config
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.exe
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.pdb
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.csprojResolveAssemblyReference.cache
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.Form1.resources
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.Properties.Resources.resources
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.csproj.GenerateResource.Cache
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.exe
+c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.pdb
