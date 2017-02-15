@@ -1,0 +1,9 @@
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\bin\Debug\liga de futbol.exe.config
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\bin\Debug\liga de futbol.exe
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\bin\Debug\liga de futbol.pdb
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\obj\Debug\liga de futbol.csprojResolveAssemblyReference.cache
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\obj\Debug\liga_de_futbol.Form1.resources
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\obj\Debug\liga_de_futbol.Properties.Resources.resources
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\obj\Debug\liga de futbol.csproj.GenerateResource.Cache
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\obj\Debug\liga de futbol.exe
+c:\users\saulo\documents\visual studio 2015\Projects\liga de futbol\liga de futbol\obj\Debug\liga de futbol.pdb
