@@ -7,3 +7,14 @@ c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\o
 c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.csproj.GenerateResource.Cache
 c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.exe
 c:\users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.pdb
+C:\Users\saulo\documents\visual studio 2015\Projects\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.XML
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.exe.config
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.XML
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.exe
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.pdb
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.exe
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\bin\Debug\Windows3Raya.pdb
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.csprojResolveAssemblyReference.cache
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.Form1.resources
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.Properties.Resources.resources
+D:\Escritorio\Git\Programacion\Segundo trimestre\Windows3Raya\Windows3Raya\obj\Debug\Windows3Raya.csproj.GenerateResource.Cache
