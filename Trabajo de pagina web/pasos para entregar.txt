@@ -1,0 +1,19 @@
+Una carpeta con mi nombre con otras carpetas dentro para las imagenes
+
+
+Contenido html--> listas tablas formularios, enlaces entre mi propia pagina y a otra externa
+imagenes y una de las imagenes tiene que tener mapeado con enlaces tb
+
+css transicion animaciones shadow un focus, un chequeado conectado a un check del formulario del html cambiar tipo de letra, border radius
+
+
+
+
+
+
+
+
+
+
+
+

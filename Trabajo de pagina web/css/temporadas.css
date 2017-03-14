@@ -1,0 +1,210 @@
+body{
+	background: #2089D0;
+    background: -webkit-linear-gradient(#2089D0, #E4F1FA); 
+    background: -o-linear-gradient(#2089D0, #E4F1FA); 
+    background: -moz-linear-gradient(#2089D0, #E4F1FA);
+    background: linear-gradient(#2089D0, #E4F1FA);
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+h1{
+	font-size: 60px;
+	position: absolute;
+	left: 700px;
+	font-family: 'simpson'
+}
+@font-face{
+	font-family: 'simpson';
+	src:url(../letras/simpsonfont.ttf);
+}
+/*Menu*/
+nav{
+	position: absolute;
+	top:150px;
+	left: 30px;
+	background-color: #F8E025;
+	border-radius: 1em 1em 0em 0em/1em 1em 0em 0em;
+}
+nav .menu li{
+	margin: 10px;
+	margin-right: 140px;
+	margin-left: 70px;
+	font-size: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #E33C93;
+}
+
+.menu > li{
+	float: left;
+}
+li ul {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	background-color: #F8E025;
+	padding: -10px;
+	left: 300px;
+
+}
+nav .menu li:nth-child(2):hover > ul{
+	display: block;
+}
+ul{
+	list-style: none;
+}
+
+
+/*Menu*/
+
+.uno{
+	position: absolute;
+	top: 430px;
+	left: 330px;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+	width: 1300px;
+	height: 850px;
+	background-color: #F8E025;
+}
+
+.azul{
+	position: relative;
+	left: 30px;
+	top: 50px;
+	background-color: #268496;
+	width: 1200px;
+	height: 40px;
+	color: white;
+	font-size: 35px;
+	border-radius: 0em 0em 1em 1em/0em 0em 1em 1em;
+}
+.azul .ultimos{
+	position: relative;
+	left: 30px;
+}
+
+
+.especiales{
+	position: relative;
+	left: 30px;
+	top: 380px;
+	background-color: #268496;
+	width: 1200px;
+	height: 40px;
+	color: white;
+	font-size: 35px;
+	border-radius: 0em 0em 1em 1em/0em 0em 1em 1em;
+}
+
+.especiales .episodios{
+	position: relative;
+	left: 30px;
+}
+
+.capitulo video{
+	position: relative;
+	top: 60px;
+	left: 20px;
+	width: 30%;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+}
+.capitulo1{
+	position: relative;
+	top: 40px;
+	left: 110px;
+	margin:0px;
+	color: black;
+}
+.capitulodos video{
+	position: relative;
+	top: -150px;
+	left: 450px;
+	width: 30%;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+}
+
+.capitulo2{
+	position: absolute;
+	top: 45px;
+	left: 560px;
+	color: black
+}
+
+/*Falta capitulo3*/
+.capitulo3{
+	position: absolute;
+	top: 45px;
+	left: 970px;
+	color: black
+}
+.capitulotres video{
+	position: relative;
+	top: -360px;
+	left: 870px;
+	width: 30%;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+}
+
+.halloween{
+	position: absolute;
+	top: 400px;
+	left: 240px;
+	color: black
+}
+.halloweencuatro video{
+	position: relative;
+	top: -220px;
+	left: 150px;
+	width: 35%;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+}
+
+.especial2{
+	position: absolute;
+	top: 400px;
+	left: 740px;
+	color: black
+}
+.especialdos video{
+	position: relative;
+	top: -465px;
+	left: 650px;
+	width: 35%;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+}
+
+.siguiente{
+	z-index: 20;
+	position: absolute;
+	top: 800px;
+	left: 600px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #268496;
+	box-shadow: 5px 5px 5px #888888;
+}
+.siguiente2{
+	z-index: 20;
+	position: absolute;
+	top: 800px;
+	left: 650px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #268496;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+a{
+ 	text-decoration: none;
+	position: relative;
+	left: -10px;
+}
+ p{
+	position: relative;
+	left: 15px;
+	top: -5px;
+}

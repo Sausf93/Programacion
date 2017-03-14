@@ -30,6 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.B22 = new System.Windows.Forms.Button();
             this.B21 = new System.Windows.Forms.Button();
@@ -54,6 +55,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.B22);
             this.panel1.Controls.Add(this.B21);
@@ -204,6 +206,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(72, 15);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -215,6 +218,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(469, 174);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 13);
@@ -224,6 +228,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(506, 174);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
@@ -233,6 +238,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(549, 174);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 13);
@@ -264,7 +270,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 418);
+            this.BackgroundImage = global::Windows3Raya.Properties.Resources.tictactoe;
+            this.ClientSize = new System.Drawing.Size(598, 401);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -275,8 +282,11 @@
             this.Controls.Add(this.Bmaquina);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Text = "Tres en Raya";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

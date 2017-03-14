@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/registro.css">
+	<title>Registro</title>
+</head>
+<body>
+<h1>Registro</h1>
+
+	<header>
+	<nav>
+		<ul class="menu">
+			<li><a href="../index.html"><strong>Inicio</strong></a></li>
+			<li><a href="#"><strong>Personajes</strong></a>
+				<ul>
+					<li>
+						<a href="homer.html"> Homer </a>
+					</li>
+					<li>
+						<a href="marge.html">Marge </a>
+					</li>
+					<li>
+						<a href="lisa.html">Lisa </a>
+					</li>
+					<li>
+						<a href="bart.html">Bart </a>
+					</li>
+					<li>
+						<a href="magie.html">Maggie </a>
+					</li>
+				</ul>
+			</li>	
+			<li><a href="temporadas.html"><strong>Temporadas</strong></a></li>
+			<li><a href="https://es.wikipedia.org/wiki/Los_Simpson"><strong>Más información</strong></a></li>
+			<li><a href="registro.html"><strong>Registrate</strong></a></li>
+		</ul>	
+	</nav>
+	</header>
+	<div class="amarillo">
+		<form>
+			<ul>
+        <li class="fila">
+          <!-- text -->
+          <input type="text" id="nombre" name="fullname" maxlength="30" size="30" placeholder="(nombre)" required="required" autofocus="autofocus" />
+          <label for="nombre" class="propiedad">Nombre</label>
+        <!--hidden -->
+        <input type="hidden" id="codigo" name="code" value="25" />
+        </li>
+        <!-- password -->
+        <li class="fila">
+          <input type="password" id="password" name="password" size="30" placeholder="(contraseña)" required="password"  name="password" />
+          <label for="password" class="propiedad">Contraseña</label>
+        </li>
+        <!--Repetir pasword-->
+          <li class="fila">
+          <input type="password" id="password" name="password" size="30" placeholder="( repetir contraseña)" required="passwordrep"  name="passwordrep" />
+          <label for="password" class="propiedad"> repetir Contraseña</label>
+        </li>
+        <!-- email -->
+        <li class="fila">
+          <input type="email" id="email" name="email" maxlength="30" size="30" placeholder="(email)" />
+          <label for="email" class="propiedad">Email</label>
+        </li>
+        <!-- tel -->
+        <li class="fila">
+          <input type="tel" id="telefono" name="phonenumber" maxlength="9" size="11" placeholder="(teléfono)" pattern="[0-9]{9}" />
+          <label for="telefono" class="propiedad">Teléfono</label>
+        </li>
+        <!-- url -->
+        <li class="fila">
+          <input type="url" id="web" name="web" maxlength="30" size="30" placeholder="(url)" value="http://" />
+          <label for="web" class="propiedad">Web personal</label>
+        </li>
+        <!-- date -->
+        <li class="fila">
+          <input type="date" id="fecha" name="birthdate" />
+          <label for="fecha" class="propiedad">Fecha de nacimiento</label>
+        </li>
+        <li class="fila">
+          <p>SEXO:</p>
+          <label for="fecha" class="propiedad">Hombre</label>
+          <div class="hombre">
+          <input type="radio" name="genero" value="hombre" checked="">
+          </div>
+          <label for="fecha" class="propiedad">Mujer</label>
+          <div class="mujer">
+          <input type="radio" name="genero" value="Mujer" checked="">
+          </div>
+        </li>
+        </ul>
+        <div class="terminos">
+           <p>he leído y acepto los <a href="https://www.banamex.com/es/terminos_condiciones.com">terminos y condiciones</a></p> 
+           </div>
+           <div class="boton"> 
+           <input type="checkbox" name="intereses" value="viajes"> 
+           </div>
+           <div class="aceptar">
+           <input type="submit" value="Registrarse"> 
+           </div>   
+		</form>
+	</div>
+</body>
+</html>

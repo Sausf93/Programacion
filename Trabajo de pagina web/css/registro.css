@@ -1,0 +1,176 @@
+body{
+	background: #2089D0;
+    background: -webkit-linear-gradient(#2089D0, #E4F1FA); 
+    background: -o-linear-gradient(#2089D0, #E4F1FA); 
+    background: -moz-linear-gradient(#2089D0, #E4F1FA);
+    background: linear-gradient(#2089D0, #E4F1FA);
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+h1{
+	font-size: 60px;
+	position: absolute;
+	left: 800px;
+	font-family: 'simpson'
+}
+@font-face{
+	font-family: 'simpson';
+	src:url(../letras/simpsonfont.ttf);
+}
+
+/*Menu*/
+nav{
+	position: absolute;
+	top:150px;
+	left: 30px;
+	background-color: #F8E025;
+	border-radius: 1em 1em 0em 0em/1em 1em 0em 0em;
+}
+nav .menu li{
+	margin: 10px;
+	margin-right: 140px;
+	margin-left: 70px;
+	font-size: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #E33C93;
+}
+
+.menu > li{
+	float: left;
+}
+li ul {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	background-color: #F8E025;
+	padding: -10px;
+	left: 300px;
+
+}
+nav .menu li:nth-child(2):hover > ul{
+	display: block;
+}
+ul{
+	list-style: none;
+}
+
+.amarillo{
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+	width: 700px;
+	height: 650px;
+	background-color: #F8E025;
+}
+
+/*--FFormulario-->*/
+form {
+	position: relative;
+	left: -120px;
+  	padding-top: 1rem;
+}
+
+form ul {
+  	list-style: none;
+}
+
+input, output, button {
+  font-size: .9rem;
+  padding: .3rem;
+}
+
+
+.fila {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.propiedad {
+  min-width: 50%;
+  text-align: right;
+  padding-right: 1rem;
+  order: -1;
+}
+
+:required:valid:not(:placeholder-shown) ~ .propiedad:before,
+input[type="email"]:valid:not(:placeholder-shown) ~ .propiedad:before,
+input[type="url"]:valid:not(:placeholder-shown) ~ .propiedad:before,
+input[type="tel"]:valid:not(:placeholder-shown) ~ .propiedad:before {
+  content: "\2713";
+  color: teal;
+  vertical-align: middle;
+  display: inline;
+  padding-right: .5rem;
+}
+
+:invalid ~ .propiedad:before {
+  content: "\26A0";
+  color: red;
+  vertical-align: middle;
+  display: inline;
+  padding-right: .5rem;
+}
+
+:invalid ~ .propiedad:after {
+  content: "Valor incorrecto";
+  color: red;
+  font-size: .8rem;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  text-align: left;
+}
+
+
+:required:invalid ~ .propiedad:after {
+  content:"Campo obligatorio";
+}
+
+input[type="email"]:invalid ~ .propiedad:after {
+  content:"El email debe llevar @ y .";
+}
+
+
+input[type="tel"]:invalid ~ .propiedad:after {
+  content:"El teléfono debe ser numérico, contener  9 dígitos y comenzar por 6, 7, 8 o 9";
+}
+
+input[type="url"]:invalid ~ .propiedad:after {
+  content:"La URL debe comenzar por http:// y contener al menos un nombre de dominio";
+}
+
+.aceptar{
+	position: relative;
+	left: 400px;
+	top: -10px;
+}
+li p{
+	size: 20px;
+	position: relative;
+	top: -60px;
+}
+li .hombre{
+	position: relative;
+	top: -30px;
+	left: -40px;
+}
+li .mujer{
+	position: relative;
+	left: -60px;
+}
+.terminos{
+	position: relative;
+	left: 300px;
+}
+.boton{
+	position: relative;
+	left: 260px;
+	top: -35px;
+}

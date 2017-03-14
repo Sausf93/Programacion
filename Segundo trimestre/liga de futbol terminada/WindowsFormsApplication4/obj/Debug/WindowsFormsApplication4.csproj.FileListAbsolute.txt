@@ -16,3 +16,12 @@ D:\Escritorio\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\Window
 D:\Escritorio\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
 D:\Escritorio\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 D:\Escritorio\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+D:\Escritorio\Git\Programacion\Segundo trimestre\liga de futbol terminada\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache

@@ -11,31 +11,31 @@
         </member>
         <member name="M:Windows3Raya.Form1.button1_Click(System.Object,System.EventArgs)">
             <summary>
-            
+            La función button1_click es el evento que se produce cuando clickamos en el boton de inicia. Establece la tabla de botones y muestra un mensaje para dar el turno a el jugador o a la maquina.
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
         <member name="M:Windows3Raya.Form1.#ctor">
             <summary>
-            
+            Form1 es cuando la función que inicializa todos los botones del diseño. En esta funcion también añadimos una funcion crea y que el panel que contiene los botones lo inicie como falso. 
             </summary>
         </member>
         <member name="M:Windows3Raya.Form1.Crea">
             <summary>
-            
+            Funcion Crea. Es la que llamamos despues de inicializar el diseño. Esta consiste en crear una tabla de botones de dos dimensiones siendo de 3x3 y metiendo los botones ordenados en tal caso de que los mete en este orden: B00, B01, B02, B10, B11, B12, B20, B21, B22. Esto se hace para cuando vayamos a escribir en los botones coincida su posición tanto en esta tabla como en la que crearemos posteriormente en la clase juego.
             </summary>
         </member>
         <member name="M:Windows3Raya.Form1.button_Click(System.Object,System.EventArgs)">
             <summary>
-            
+            Función button_click. Esta es la funcion que se se ejecuta con el evento click de todos los botones dentro del panel. 
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
         <member name="M:Windows3Raya.Form1.Movimientomaquina(System.Object,System.EventArgs)">
             <summary>
-            
+            Funcion movimientomaquina. Es el evento que se ejecuta cuando le damos click al boton de maquina del formulario.   
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
@@ -59,18 +59,103 @@
         </member>
         <member name="T:Windows3Raya._devolv">
             <summary>
-            
+            Estructura _devolv. Es la estructura de datos que se va a intercambiar entre la clase juego y el form1.cs para compartir información. Contiene un turno, fila, columna, ganajugador, ganamaquina, sigue.
+            </summary>
+        </member>
+        <member name="F:Windows3Raya._devolv.turno">
+            <summary>
+            variable de turno entera
+            </summary>
+        </member>
+        <member name="F:Windows3Raya._devolv.fila">
+            <summary>
+            variable de fila entera
+            </summary>
+        </member>
+        <member name="F:Windows3Raya._devolv.columna">
+            <summary>
+            variable de columna entera
+            </summary>
+        </member>
+        <member name="F:Windows3Raya._devolv.ganajugador">
+            <summary>
+            variable de ganajugador booleana
+            </summary>
+        </member>
+        <member name="F:Windows3Raya._devolv.ganamaquina">
+            <summary>
+            variable de ganamaquina booleana
+            </summary>
+        </member>
+        <member name="F:Windows3Raya._devolv.sigue">
+            <summary>
+            variable sigue booleana
             </summary>
         </member>
         <member name="T:Windows3Raya.Juego">
             <Juego>
-            La clase Juego, coge todas las variables, las organiza buenamente, y le presentan a Manu a Claudia.
+            Clase Juego. Es la que se encarga del funcionamiento de la maquina las comprobaciones .
             </Juego>
         </member>
         <member name="M:Windows3Raya.Juego.Ganar">
             <summary>
-            Hecha//
+            Función de la clase juego Ganar, devuelve a la funcion que la llama ganamaquina o ganajugador a true o falso. Esto lo hace comprobando con varios bucles si hay tres fichas iguales en linea.
             </summary>
+        </member>
+        <member name="M:Windows3Raya.Juego.Recoger(System.String,System.String)">
+            <summary>
+            Funcion recoger. Es la que llamamos al escribir la jugada del usuario. Esta funcion lo que hace es recoger en donde ha escrito esa X el usuario para meterla en la tabla de dos dimensiones de la clase juego para posteriormente poder hacer las comprobaciones y demás.
+            </summary>
+            <param name="recogidax"></param>
+            <param name="recogiday"></param>
+        </member>
+        <member name="M:Windows3Raya.Juego.Empate">
+            <summary>
+            Funcion empate. Es la funcion que llamamos desde la jugada del usuario o de la maquina para ver si el tablero de char de dos dimensiones esta lleno por lo que quiere decir que el juego ha terminado. Esta función es de tipo int por lo que devuelve 1 en caso de que se haya rellenado el tablero o 0 en caso de que aun no este lleno.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.Movimientomaquina">
+            <summary>
+            Función de tipo _devolv Movimiento maquina. Es la segunda que se llamara para que juegue la maquina despues de la de gana. Esta se encarga de comprobar si el usuario esta a punto de ganar porque tiene dos de sus fichas en linea y va a colocar la ficha de la maquina en esa posicion para tapar la jugada del usuario.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.tiradarandom">
+            <summary>
+            Funcion de tipo _devolv tiradaramdon. Esta función es la ultima que llamaremos para la jugada de la maquina. Se encarga de tirar en cualquier posicion que este vacia aleatoriamente. solo se utiliza si todos los pasos que son llamados antes no tienen que cubrir o hacer alguna jugada.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.tiradagana">
+            <summary>
+            Función de tipo _devolv tiradagana. Esta función se encarga de la primera tirada de la maquina. Su función primero es comprobar si el centro del tablero esta ocupado y si no tirar ahi. Despues ver si tiene dos fichas en linea para ir a ganar colocando la tercera.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.tiraresquina">
+            <summary>
+            Función de tipo _devolv tiradaesquina. Esta es la función que se puede llamar en dos casos en la que se haga la jugadaTriangulo. Si esta no se hace se llama despues de la función jugadaSaulo. La tirada esquina se encarga de tirar en las esquinas aleatoriamente como su nombre indica.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.jugadatriangulo">
+            <summary>
+            Funcion de tipo _devolv jugadatriangulo. Esta función se encarga de controlar la jugada en la que la x este escrita en una esquina y en el medio. hay una opción si no se controla bien de que el jugador pulse otra esquina y si en ese caso en el turno de la maquina que tiraria aleatorio no tira a esquina, el usuario tendria la opción de ganar. Asi que si este fuera el caso se llama a tiradaEsquina.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.jugadaSaulo">
+            <summary>
+            Función tipo _devolv JugadaSaulo. Esta función es la que se llama despues de la jugadatriangulo siempre que esta otra no entre por algun if. Esta función controla otra jugada especifica en la que la maquina no ve peligro de perder y tira aleatorio. Pero con esta función la controlamos haciendo todas las opciones posibles que la maquina cubra ese lado.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Windows3Raya.Juego.jugadaEsquina">
+            <summary>
+            Función jugadaEsquina. Es en el caso en el que el usuario escriba en dos esquinas la maquina no tenia controlada esta jugada y escribia en otra esquina por lo que dejaba la opcion de la 4 esquina libre por no tener amenaza de perdida del usuario que al escribir esa cuarta esquina tenia dos opciones de vencer. La maquina taparia una de las dos y jaquemate chaval.
+            </summary>
+            <returns></returns>
         </member>
         <member name="M:Windows3Raya.Program.Main">
             <summary>
@@ -79,18 +164,23 @@
         </member>
         <member name="T:Windows3Raya.Properties.Resources">
             <summary>
-              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
             </summary>
         </member>
         <member name="P:Windows3Raya.Properties.Resources.ResourceManager">
             <summary>
-              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
             </summary>
         </member>
         <member name="P:Windows3Raya.Properties.Resources.Culture">
             <summary>
-              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
-              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Windows3Raya.Properties.Resources.tictactoe">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
         </member>
     </members>

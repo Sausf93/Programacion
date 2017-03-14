@@ -1,0 +1,181 @@
+body{
+	background: #2089D0;
+    background: -webkit-linear-gradient(#2089D0, #E4F1FA); 
+    background: -o-linear-gradient(#2089D0, #E4F1FA); 
+    background: -moz-linear-gradient(#2089D0, #E4F1FA);
+    background: linear-gradient(#2089D0, #E4F1FA);
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+
+
+img{
+	width: 9%;
+}
+.nube1 img{
+	position: relative;
+	top: 20px;
+	animation:nubeuno 15s linear infinite;
+}
+
+.nube2 img{
+	position: relative;
+	top: 20px;
+	left: 800px;
+	display: none;
+	animation:nubedos 8s linear infinite;
+}
+
+h1{
+	color: #F51D2F;
+	text-shadow: 10px 10px 5px black;
+	font-size: 60px;
+	position: absolute;
+	left: 700px;
+	font-family: 'simpson';
+	animation: nombre 2s linear 1;
+}
+@keyframes nombre{
+	0%{font-size: 60px;}
+	50%{font-size: 65px;}
+	100%{font-size: 60px;}
+}
+@font-face{
+	font-family: 'simpson';
+	src:url(../letras/simpsonfont.ttf);
+}
+
+
+/*Menu*/
+nav{
+	position: absolute;
+	top:150px;
+	left: 30px;
+	background-color: #F8E025;
+	border-radius: 1em 1em 0em 0em/1em 1em 0em 0em;
+}
+nav .menu li{
+	margin: 10px;
+	margin-right: 140px;
+	margin-left: 70px;
+	font-size: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #E33C93;
+}
+
+.menu > li{
+	float: left;
+}
+li ul {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	background-color: #F8E025;
+	padding: -10px;
+	left: 300px;
+
+}
+nav .menu li:nth-child(2):hover > ul{
+	display: block;
+}
+ul{
+	list-style: none;
+}
+
+
+
+.simp img{
+	width: 40%;
+	position: absolute;
+	left: 500px;
+	top: 440px;
+	border-radius: 20%;
+}
+.nubeuno img{
+	position: absolute;
+	top: -20px;
+	left: 400px;
+	width: 200px;
+}
+.nubedos img{
+	position: absolute;
+	top: 80px;
+	left: 1300px;
+	width: 200px;
+}
+.nubetres img{
+	position: absolute;
+	top: 20px;
+	left: 900px;
+	width: 200px;
+}
+.nubecuatro img{
+	position: absolute;
+	top: 300px;
+	left: 1200px;
+	width: 200px;
+}
+.nubecinco img{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	width: 200px;
+}
+.nubeseis img{
+	position: absolute;
+	top: 600px;
+	left: 100px;
+	width: 200px;
+}
+
+.nubesiete img{
+	position: absolute;
+	top: 600px;
+	left: 1500px;
+	width: 200px;
+}
+.oculto ul{
+	display: none;
+}
+
+ul li a:hover .oculto ul li{
+	display: block;
+}
+form{
+	position: absolute;
+	left: 1580px;
+	top: 240px;
+	width: 240px;
+	height:220px;
+	background-color: #FF8BC8;
+	border-radius: 1em 1em 1em 1em/1em 1em 1em 1em;
+}
+.pass{
+	position: relative;
+	left: 30px;
+}
+.in{
+	position: relative;
+	left: 30px;
+	top: -10px;
+}
+.in p{
+	position: relative;
+	font-size: 30px;
+	left: -5px;
+	font-family: 'simpson';
+}
+
+.aceptar{
+	position: relative;
+	left: 70px;
+	top: 15px;
+}
+form > a{
+	position: relative;
+	top: 20px;
+	left: 30px;
+}

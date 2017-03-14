@@ -1,0 +1,90 @@
+body{
+	background: #2089D0;
+    background: -webkit-linear-gradient(#2089D0, #E4F1FA); 
+    background: -o-linear-gradient(#2089D0, #E4F1FA); 
+    background: -moz-linear-gradient(#2089D0, #E4F1FA);
+    background: linear-gradient(#2089D0, #E4F1FA);
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+h1{
+	font-size: 60px;
+	position: absolute;
+	left: 750px;
+	font-family: 'simpson'
+}
+@font-face{
+	font-family: 'simpson';
+	src:url(../letras/simpsonfont.ttf);
+}
+section{
+	border-radius: 10%;
+	float: right;
+	border:solid 2px #222;
+	background-color: #F8E025;
+    width: 393px;
+    height: 267px;
+}
+section.uno{
+	position: absolute;
+	text-indent: 20px;
+	bottom: 410px;
+	left: 930px;
+}
+section.dos{
+	position: absolute;
+	text-indent: 20px;
+	left: 930px;
+	bottom: 130px;
+}
+.homer img{
+	width: 55%;
+	position: absolute;
+	top: 300px;
+	left: 240px;
+}
+.rosquilla {
+	width: 10%;
+	float: right;
+	position: relative;
+	left: -10px;
+}
+
+/*Menu*/
+
+nav{
+	position: absolute;
+	top:150px;
+	left: 30px;
+	background-color: #F8E025;
+	border-radius: 1em 1em 0em 0em/1em 1em 0em 0em;
+}
+nav .menu li{
+	margin: 10px;
+	margin-right: 140px;
+	margin-left: 70px;
+	font-size: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #E33C93;
+}
+
+.menu > li{
+	float: left;
+}
+li ul {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	background-color: #F8E025;
+	padding: -10px;
+	left: 300px;
+}
+nav .menu li:nth-child(2):hover > ul{
+	display: block;
+}
+ul{
+	list-style: none;
+}
